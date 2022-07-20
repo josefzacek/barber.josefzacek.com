@@ -1,4 +1,4 @@
-# barber
+# Barber
  One pager developed using Jekyll static site generator
 
 
@@ -6,7 +6,6 @@
 **Create Jekyll app inside folder**
 
 `jekyll new . --force`
-
 
 **Run server**
 
