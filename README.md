@@ -2,6 +2,9 @@
  One pager developed using Jekyll static site generator
 
 
+ **Live url**
+
+ https://barber.josefzacek.com/
 
 **Create Jekyll app inside folder**
 
