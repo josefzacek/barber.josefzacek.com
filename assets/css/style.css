@@ -1,0 +1,13 @@
+.banner-row {
+  background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ),url("../images/Man-getting-haircut.png");
+  height: 80vh;
+  background-position: center;
+  background-size: cover;
+  background-blend-mode: darken;
+}
+
+@media(min-width:993px){
+  .banner-row h1{
+    font-size: 60px;
+  }
+}
