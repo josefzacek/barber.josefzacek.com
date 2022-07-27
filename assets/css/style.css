@@ -22,3 +22,13 @@ body {
     font-size: 60px;
   }
 }
+
+
+/* about row */
+.about-row {
+    background-color: var(--light-grey);
+}
+
+.about-row h4 {
+  color: var(--brown);
+}
