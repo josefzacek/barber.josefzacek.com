@@ -1,3 +1,10 @@
+
+:root {
+  --light-grey: #f8fbf6;
+  --brown: #ae7b5b;
+}
+
+
 body {
   font-family: 'Merriweather', serif;
 }
@@ -14,4 +21,14 @@ body {
   .banner-row h1{
     font-size: 60px;
   }
+}
+
+
+/* about row */
+.about-row {
+  background-color: var(--light-grey);
+}
+
+.about-row h4 {
+  color: var(--brown);
 }
