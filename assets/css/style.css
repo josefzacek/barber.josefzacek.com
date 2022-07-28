@@ -32,3 +32,9 @@ body {
 .about-row h4 {
   color: var(--brown);
 }
+
+
+/* gallery row */
+.gallery-row h4 {
+  color: var(--brown);
+}
