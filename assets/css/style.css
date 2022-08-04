@@ -4,6 +4,12 @@
   --brown: #ae7b5b;
 }
 
+/* fix scrolling to sections on devices with fixed navbar */
+@media(min-width: 992px) {
+    html {
+        scroll-padding-top: 89px;
+    }
+}
 
 body {
   font-family: 'Merriweather', serif;
