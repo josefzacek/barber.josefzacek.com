@@ -44,3 +44,10 @@ body {
 .gallery-row h4 {
   color: var(--brown);
 }
+
+/* testimonials row */
+.testimonials-row {
+  background-image: url("../images/Barber-shaving-blade.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
