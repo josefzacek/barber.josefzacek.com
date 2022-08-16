@@ -41,6 +41,19 @@ body {
 }
 
 
+/* pricing row */
+.pricing-row {
+  background-color: var(--light-grey);
+}
+.pricing-row h4 {
+  color: var(--brown);
+}
+
+.pricing-row .pricing-separator {
+  border-bottom: 2px dotted var(--black);
+}
+
+
 /* gallery row */
 .gallery-row h4 {
   color: var(--brown);
