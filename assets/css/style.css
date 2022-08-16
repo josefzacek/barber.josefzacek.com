@@ -2,6 +2,7 @@
 :root {
   --light-grey: #f8fbf6;
   --brown: #ae7b5b;
+  --black: #000000;
 }
 
 /* fix scrolling to sections on devices with fixed navbar */
@@ -37,6 +38,19 @@ body {
 
 .about-row h4 {
   color: var(--brown);
+}
+
+
+/* pricing row */
+.pricing-row {
+  background-color: var(--light-grey);
+}
+.pricing-row h4 {
+  color: var(--brown);
+}
+
+.pricing-row .pricing-separator {
+  border-bottom: 2px dotted var(--black);
 }
 
 
