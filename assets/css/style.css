@@ -65,3 +65,8 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
 }
+
+/* get in touch row */
+.get-in-touch-row h4 {
+    color: var(--brown);
+}
