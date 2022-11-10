@@ -25,6 +25,9 @@ $(document).ready(function() {
 
 })
 
+// register ScrollTrigger plugin
+gsap.registerPlugin(ScrollTrigger);
+
 // banner text animation
 window.onload = function() {
   gsap.to(".banner-row h1",
