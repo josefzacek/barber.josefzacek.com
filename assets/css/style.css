@@ -24,6 +24,11 @@ body {
   background-blend-mode: darken;
 }
 
+.banner-row h1 {
+  opacity: 0;
+  transform: translateX(-2000px);
+}
+
 @media(min-width:993px){
   .banner-row h1{
     font-size: 60px;
