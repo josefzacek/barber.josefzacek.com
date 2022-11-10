@@ -27,12 +27,10 @@ $(document).ready(function() {
 
 // banner text animation
 window.onload = function() {
-  gsap.fromTo(".banner-row h1",
-    {opacity: 0},
+  gsap.to(".banner-row h1",
     {opacity: 1, duration: 3},
   );
-  gsap.fromTo(".banner-row h1",
-    {x: -800},
+  gsap.to(".banner-row h1",
     {x: 0, duration: 1}
   );
 }
