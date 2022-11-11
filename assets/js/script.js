@@ -25,6 +25,9 @@ $(document).ready(function() {
 
 })
 
+// register ScrollTrigger plugin
+gsap.registerPlugin(ScrollTrigger);
+
 // banner text animation
 window.onload = function() {
   gsap.to(".banner-row h1",
@@ -34,3 +37,39 @@ window.onload = function() {
     {x: 0, duration: 1}
   );
 }
+
+// about row text
+gsap.set(".about-row .row .col-lg-6", {x: "-20vw", opacity: 0});
+gsap.to('.about-row .row .col-lg-6', {
+  x: 0,
+  opacity: 1,
+  duration: 1,
+  scrollTrigger: {
+    trigger: ".about-row .row .col-lg-6",
+    start: "top 80%",
+  }
+});
+
+// about row image
+gsap.set(".about-row .row .col-lg-3:nth-child(2)", {x: "20vw", opacity: 0});
+gsap.to('.about-row .row .col-lg-3:nth-child(2)', {
+  x: 0,
+  opacity: 1,
+  duration: 1,
+  scrollTrigger: {
+    trigger: ".about-row .row .col-lg-3:nth-child(2)",
+    start: "top 80%",
+  }
+});
+
+// about row working hours
+gsap.set(".about-row .row .col-lg-3:nth-child(3)", {x: "20vw", opacity: 0});
+gsap.to('.about-row .row .col-lg-3:nth-child(3)', {
+  x: 0,
+  opacity: 1,
+  duration: 1,
+  scrollTrigger: {
+    trigger: ".about-row .row .col-lg-3:nth-child(3)",
+    start: "top 80%",
+  }
+});
