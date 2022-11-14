@@ -73,3 +73,17 @@ gsap.to('.about-row .row .col-lg-3:nth-child(3)', {
     start: "top 80%",
   }
 });
+
+// gallery row images
+gsap.set(".gallery-row img", {y: "20px", opacity: 0});
+$('.gallery-row img').each(function(){
+  gsap.to(this, {
+    y: 0,
+    opacity: 1,
+    duration: 1,
+    scrollTrigger: {
+      trigger: this,
+      start: "top 70%",
+    }
+  });
+})
