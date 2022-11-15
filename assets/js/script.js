@@ -87,3 +87,27 @@ $('.gallery-row img').each(function(){
     }
   });
 })
+
+// pricing row text left
+gsap.set(".pricing-row .row .col-md-6:nth-child(1)", {x: "-20vw", opacity: 0});
+gsap.to('.pricing-row .row .col-md-6:nth-child(1)', {
+  x: 0,
+  opacity: 1,
+  duration: 1,
+  scrollTrigger: {
+    trigger: ".pricing-row .row .col-md-6:nth-child(1)",
+    start: "top 80%",
+  }
+});
+
+// pricing row text right
+gsap.set(".pricing-row .row .col-md-6:nth-child(2)", {x: "20vw", opacity: 0});
+gsap.to('.pricing-row .row .col-md-6:nth-child(2)', {
+  x: 0,
+  opacity: 1,
+  duration: 1,
+  scrollTrigger: {
+    trigger: ".pricing-row .row .col-md-6:nth-child(2)",
+    start: "top 80%",
+  }
+});
