@@ -111,3 +111,17 @@ gsap.to('.pricing-row .row .col-md-6:nth-child(2)', {
     start: "top 80%",
   }
 });
+
+// testimonials row
+gsap.set(".testimonials-row .col-md-3", {y: "20px", opacity: 0});
+$('.testimonials-row .col-md-3').each(function(){
+  gsap.to(this, {
+    y: 0,
+    opacity: 1,
+    duration: 1,
+    scrollTrigger: {
+      trigger: this,
+      start: "top 70%",
+    }
+  });
+})
