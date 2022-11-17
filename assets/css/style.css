@@ -22,6 +22,7 @@ body {
   background-position: center;
   background-size: cover;
   background-blend-mode: darken;
+  overflow-x: hidden;
 }
 
 .banner-row h1 {
@@ -39,6 +40,7 @@ body {
 /* about row */
 .about-row {
   background-color: var(--light-grey);
+  overflow-x: hidden;
 }
 
 .about-row h4 {
@@ -49,6 +51,7 @@ body {
 /* pricing row */
 .pricing-row {
   background-color: var(--light-grey);
+  overflow-x: hidden;
 }
 .pricing-row h4 {
   color: var(--brown);
@@ -72,6 +75,10 @@ body {
 }
 
 /* get in touch row */
+.get-in-touch-row {
+  overflow-x: hidden;
+}
+
 .get-in-touch-row h4 {
     color: var(--brown);
 }
