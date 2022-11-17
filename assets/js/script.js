@@ -125,3 +125,27 @@ $('.testimonials-row .col-md-3').each(function(){
     }
   });
 })
+
+// get in touch row - left column
+gsap.set(".get-in-touch-row .row .col-lg-5", {x: "-20vw", opacity: 0});
+gsap.to('.get-in-touch-row .row .col-lg-5', {
+  x: 0,
+  opacity: 1,
+  duration: 1,
+  scrollTrigger: {
+    trigger: ".get-in-touch-row .row .col-lg-5",
+    start: "top 80%",
+  }
+});
+
+// get in touch row - right column
+gsap.set(".get-in-touch-row .row .col-lg-7", {x: "20vw", opacity: 0});
+gsap.to('.get-in-touch-row .row .col-lg-7', {
+  x: 0,
+  opacity: 1,
+  duration: 1,
+  scrollTrigger: {
+    trigger: ".get-in-touch-row .row .col-lg-7",
+    start: "top 80%",
+  }
+});
