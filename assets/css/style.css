@@ -7,9 +7,9 @@
 
 /* fix scrolling to sections on devices with fixed navbar */
 @media(min-width: 992px) {
-    html {
-        scroll-padding-top: 89px;
-    }
+  html {
+    scroll-padding-top: 89px;
+  }
 }
 
 body {
@@ -36,7 +36,6 @@ body {
   }
 }
 
-
 /* about row */
 .about-row {
   background-color: var(--light-grey);
@@ -47,12 +46,12 @@ body {
   color: var(--brown);
 }
 
-
 /* pricing row */
 .pricing-row {
   background-color: var(--light-grey);
   overflow-x: hidden;
 }
+
 .pricing-row h4 {
   color: var(--brown);
 }
@@ -60,7 +59,6 @@ body {
 .pricing-row .pricing-separator {
   border-bottom: 2px dotted var(--black);
 }
-
 
 /* gallery row */
 .gallery-row h4 {
@@ -80,5 +78,5 @@ body {
 }
 
 .get-in-touch-row h4 {
-    color: var(--brown);
+  color: var(--brown);
 }

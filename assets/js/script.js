@@ -28,16 +28,6 @@ $(document).ready(function() {
 // register ScrollTrigger plugin
 gsap.registerPlugin(ScrollTrigger);
 
-$(".gallery-row img").each(function(){
-  if ($(this).complete) {
-    ScrollTrigger.refresh();
-  } else {
-    $(this).on('load', function () {
-      return ScrollTrigger.refresh();
-    });
-  }
-})
-
 // banner text animation
 window.onload = function() {
   gsap.to(".banner-row h1",
